@@ -9,6 +9,15 @@
     line-height: 1.1;
  }
 
+ .footer__link:hover {
+    transition: opacity .3s ease;
+    opacity: .8;
+ }
+
+ .footer__link:last-of-type {
+    margin: 0;
+ }
+
  @media screen and (max-width: 767px) {
     .footer__link {
         flex-direction: column;
@@ -18,10 +27,6 @@
         line-height: 1;
     }
 } 
-
- .footer__link:last-of-type {
-    margin: 0;
- }
 
  @media screen and (max-width: 767px) {
     .footer__link:last-of-type {
